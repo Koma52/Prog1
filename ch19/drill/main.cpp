@@ -1,4 +1,4 @@
-#include "myTemplate.h"
+#include "myTemplate2.h"
 
 int main(){
    S<int> myInt {52};
@@ -11,7 +11,7 @@ int main(){
    std::cout << "myChar: " << myChar.get() << std::endl;
    std::cout << "myDouble: " << myDouble.get() << std::endl;
    std::cout << "myString: " << myString.get() << std::endl;
-//    cout << "myVecInt: " << myVectInt.get() << endl;
+   std::cout << "myVecInt: " << myVectInt.get() << std::endl;
 
     read_val(myInt);
 
